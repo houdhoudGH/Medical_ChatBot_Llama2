@@ -45,7 +45,7 @@ PROMPT = PromptTemplate(
 chain_type_kwargs = {"prompt": PROMPT}
 
 llm = CTransformers(
-    model="../model/llama-2-7b-chat.ggmlv3.q2_K.bin",
+    model="./model/llama-2-7b-chat.ggmlv3.q2_K.bin",
     model_type="llama",
     config={"max_new_tokens": 1024, "temperature": 0.8},
 )
