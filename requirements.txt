@@ -8,3 +8,5 @@ python-dotenv
 langchain-community
 pinecone
 langchain-huggingface
+
+-e .
