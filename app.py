@@ -7,6 +7,7 @@ from flask import Flask, render_template, jsonify, request
 
 from langchain.llms import CTransformers
 from pinecone import Pinecone, ServerlessSpec
+from langchain_pinecone import PineconeVectorStore
 from langchain import PromptTemplate
 from langchain.chains import RetrievalQA
 
